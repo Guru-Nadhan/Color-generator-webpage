@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carme&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #dccde8;
+}
+#header-container {
+  background-color: #212738;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-title {
+  font-family: "Righteous", cursive;
+  color: #f5edf0;
+  font-size: 45px;
+  padding: 11px;
+}
+main {
+  display: grid;
+  min-height: calc(100vh - 7rem);
+  place-items: center;
+  text-align: center;
+}
+h2 {
+  font-weight: 700;
+  font-family: "Carme", sans-serif;
+  color: #212738;
+  text-transform: capitalize;
+}
+.btn {
+  margin-top: 20px;
+  font-family: "Carme", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2em;
+  background-color: #212738;
+  color: #f5edf0;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(50, 56, 73);
+}
+footer {
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+  background-color: #212738;
+  display: flex;
+  margin-top: 10px;
+  line-height: 25px;
+  justify-content: space-around;
+}
+.footer-elems a {
+  color: #f5edf0;
+  text-decoration: none;
+}
